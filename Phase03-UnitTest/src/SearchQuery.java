@@ -1,5 +1,3 @@
-import com.sun.jdi.event.StepEvent;
-
 import java.util.ArrayList;
 
 public class SearchQuery {
