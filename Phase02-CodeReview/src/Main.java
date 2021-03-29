@@ -13,16 +13,16 @@ public class Main {
         printResult(SearchQuery.doQuery(query, por));
     }
 
-    public static void printResult(ArrayList<Node> resultDocs) {
+    public static void printResult(ArrayList<String> resultDocs) {
         System.out.println("Result Documents: ");
         System.out.println();
         printArrayList(resultDocs);
     }
 
-    public static void printArrayList(ArrayList<Node> resultDocs) {
+    public static void printArrayList(ArrayList<String> resultDocs) {
         if (resultDocs != null) {
-            for (Node node : resultDocs) {
-                System.out.println(node.getDocumentId());
+            for (String str : resultDocs) {
+                System.out.println(str);
             }
         }
     }
